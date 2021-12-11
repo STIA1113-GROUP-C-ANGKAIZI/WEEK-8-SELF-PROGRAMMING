@@ -1,0 +1,29 @@
+package selfProgramming;
+
+public class WelcomeToJava10Times {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int count = 0;
+		while (count<10) {
+			System.out.println("Welcome To Java!");
+			count++;
+		}
+		// loop repeatly when loop-continuation-condition evaluates to "true" (1 - 9)
+		// until 10, loop stop because evaluates to false (<10)
+	}
+
+}
+
+Output:
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
+Welcome To Java!
