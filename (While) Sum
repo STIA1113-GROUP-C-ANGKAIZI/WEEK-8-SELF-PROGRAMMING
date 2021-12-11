@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class WhileSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sum = 0, i = 1;
+		while (i < 10) {
+			sum = sum + i;
+			i++;
+		}
+		System.out.println("Sum is " + sum); // 1+2+3+4+5+6+7+8+9
+		
+		int sum2 = 0, i2 = 2;
+		while (i2 < 10) {
+			sum2 = sum2 + i2;
+			i2++;
+		}
+		System.out.println("Sum2 is " + sum2); // 2+3+4+5+6+7+8+9
+	}
+
+}
+
+Output:
+Sum is 45
+Sum2 is 44
