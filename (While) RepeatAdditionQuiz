@@ -1,0 +1,39 @@
+package selfProgramming;
+import java.util.Scanner;
+public class WhileRepeatAdditionQuiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int number1 = (int) (Math.random() * 10);
+		int number2 = (int) (Math.random() * 10);
+		
+		// Create a scanner
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("What is " + number1 + "+" + number2 + "? ");
+		int answer = scan.nextInt();
+		
+		while (number1+number2 != answer) {
+			System.out.println("Wrong Answer. Try Again. What is "
+					+ number1 + "+" + number2 + "? ");
+			answer = scan.nextInt();
+		}
+		System.out.println("You got it!");
+	}
+
+}
+
+Output:
+What is 8+6? 
+6
+Wrong Answer. Try Again. What is 8+6? 
+5
+Wrong Answer. Try Again. What is 8+6? 
+14
+You got it!
+
+Output2:
+What is 2+2? 
+4
+You got it!
